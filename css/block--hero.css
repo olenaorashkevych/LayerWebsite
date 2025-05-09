@@ -1,0 +1,162 @@
+.hero {
+    height: 100vh;
+    min-height: 1050px;
+    max-height: 1600px;
+}
+
+.hero .container {
+    padding-left: 539px;
+    padding-top: 180px;
+    position: relative;
+}
+
+.hero .hero-title {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.hero .hero-title-sm {
+    font-weight: 300;
+    font-size: 30px;
+    letter-spacing: 19px;
+    color: #000;
+}
+
+.hero .hero-title-lg {
+    font-weight: 500;
+    font-size: 134px;
+    letter-spacing: 7px;
+    text-transform: uppercase;
+    color: #000;
+    margin: 48px 0 0;
+    line-height: 0.7;
+}
+
+.hero .profession {
+    margin-top: 25px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #434343;
+    text-align: center;
+    line-height: 59px;
+}
+
+.hero .main-ul {
+    display: flex;
+    flex-direction: column;
+    max-width: 590px;
+    margin: 45px 0 50px 66px;
+    gap: 40px;
+}
+
+.hero .main-li {
+    font-weight: 600;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.hero .main-link {
+    color: #333;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.hero .main-link-img {
+    width: 56px;
+    height: auto;
+}
+.hero .main-link .icon {
+    margin-left: auto;
+}
+
+.hero .main-photo {
+    position: absolute;
+    top: 0;
+    left: -220px;
+}
+.hero .main-photo-email {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+}
+.hero .main-photo-img {
+    width: 710px;
+}
+.hero .main-photo-tel {
+font-weight: 500;
+font-size: 16px;
+color: #fff;
+}
+.main-photo-contacts {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+    position: absolute;
+    bottom: 60px;
+    right: 60px;
+}
+
+@media (max-width: 1400px) {
+    .hero .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-left: 0;
+    }
+
+    .hero .hero-title {
+        order: 1;
+    }
+    .hero .profession {
+        order: 2;
+    }
+    .hero .main-photo {
+        position: relative;
+        left: 0;
+        order: 3;
+        text-align: center;
+        display: inline-block;
+        width: max-content;
+        margin: 30px auto 0;
+    }
+    .hero .main-photo-img {
+        width: 100%;
+        max-width: 700px;
+    }
+    .hero .main-photo-contacts {
+        right: inherit;
+        left: 40px;
+    }
+    .hero .main-ul {
+        order: 4;
+        margin-left: 0;
+        width: 100%;
+
+    }
+
+}
+
+
+@media (max-width: 830px) {
+    .hero {
+        padding-top: 180px;
+    }
+    .hero .container {
+        padding: 0 var(--container-padding);
+    }
+    .hero .hero-title-sm {
+        font-size: 4vw;
+    }
+    .hero .hero-title-lg {
+        font-size: 15vw;
+    }
+    .hero .profession {
+        font-size: 3.1vw;
+    }
+    .hero .main-photo {
+        width: 100%;
+    }
+}

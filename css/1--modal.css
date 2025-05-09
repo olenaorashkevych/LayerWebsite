@@ -1,0 +1,19 @@
+.modal-dialog {
+    max-width: 600px;
+}
+
+.modal-order-call {}
+.modal-order-call .modal-header {
+    padding: 30px 30px 30px 30px;
+}
+.modal-order-call .modal-body {
+    padding: 30px 30px 30px 30px;
+}
+.modal-order-call .form-control {
+    font-size: 16px;
+    min-height: 48px;
+}
+.modal-order-call .btn {
+    min-height: 48px;
+    padding: 10px 25px;
+}

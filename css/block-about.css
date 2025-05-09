@@ -1,0 +1,70 @@
+.about {
+    margin: 96px 0;
+    
+    background-color: #b0cce1;
+    padding: 86px 0;
+}
+.about-hold
+{
+    display: flex;
+    gap: 50px;
+}
+.about-text-hold {
+    flex: 1 2.7 auto;
+}
+.about-title {
+    font-size: 34px;
+    text-transform: uppercase;
+    color: black;
+    padding-bottom: 20px;
+}
+.about-text-wrap {
+    margin-bottom: 34px;
+}
+.about-text {
+    line-height: 34px;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+
+.about .cardchen {
+    width: 100%;
+    background-color: #f0f0f0;
+    flex: 1 1.8 auto;
+}
+.about .cardchen-body {
+}
+.about .cardchen-foto {
+    display: block;
+    height: 330px;
+}
+.about .cardchen-img-top {
+}
+
+.about .cardchen-text-hold {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.about .cardchen-text-group {
+    width: 100%;
+}
+.about .cardchen-text-title {
+    text-transform: uppercase;
+    font-size: 19px;
+    font-weight: 800;
+}
+.about .cardchen-text-value {
+    font-size: 19px;
+    font-weight: 400;
+    display: block;
+    color: #000;
+    line-height: 1.7;
+}
+.about .cardchen-text-value:hover {color: var(--color-main);}
+.about .cardchen-text-value.rudolf {
+    font-size: 16px;
+    color: #666;
+}

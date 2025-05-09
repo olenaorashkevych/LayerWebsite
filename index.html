@@ -2,15 +2,362 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Riechwald</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
-<body>
+<body class="page-home">
 
-    <h1>Hello</h1>
+    <header class="header">
+        <div class="container">
+            <a href="/" class="logo">
+                <img src="./img/Logo.png" alt="" class="logo-img">
+            </a>
+            <label class="hamburger">
+                <input type="checkbox" onchange="setActive(event)" data-box-toggle=".header-nav">
+                <svg viewBox="0 0 32 32">
+                    <path class="line line-top-bottom"
+                        d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
+                    </path>
+                    <path class="line" d="M7 16 27 16"></path>
+                </svg>
+            </label>
+            <nav class="header-nav">
+                <ul class="header-ul">
+                    <li class="header-li"><a href="" class="header-link">Startseite</a></li>
+                    <li class="header-li"><a href="" class="header-link">Kanzlei</a></li>
+                    <li class="header-li"><a href="" class="header-link">Rechtsgebiete</a></li>
+                    <li class="header-li"><a href="" class="header-link">Unsere Erfolge</a></li>
+                    <li class="header-li"><a href="" class="header-link">Kontakt</a></li>
+                    <li class="header-li"><a href="" class="header-link">Termin vereinbaren</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
 
+
+    <div class="hero">
+        <div class="container">
+
+            <div class="main-photo">
+                <img src="./img/mainphoto.jpg" alt="" class="main-photo-img">
+                <div class="main-photo-contacts">
+                    <a href="" class="main-photo-email">rechtsanwalt@Riechwald.de</a>
+                    <a href="" class="main-photo-tel">T:+49 89 334 422</a>
+                </div>
+            </div>
+
+            <h1 class="hero-title">
+                <span class="hero-title-sm">Romina Raphaela</span>
+                <span class="hero-title-lg font-2">Riechwald</span>
+            </h1>
+
+            <p class="profession">Rechtsanwältin <br>Fachanwältin fur Verwaltungsrecht </p>
+
+            <ul class="main-ul">
+                <li class="main-li">
+                    <a href="#hochschulrecht" class="main-link">
+                        <img src="./img/hero-1.png" alt="Hochschulrecht" class="main-link-img">
+                        Hochschulrecht
+                        <svg class="icon"><use href="#icon-arrow"></use></svg>
+                    </a>
+                </li>
+                <li class="main-li">
+                    <a href="#studienplatzklage" class="main-link">
+                        <img src="./img/hero-2.png" alt="Hochschulrecht" class="main-link-img">
+                        Studienplatzklage
+                        <svg class="icon"><use href="#icon-arrow"></use></svg>
+                    </a>
+                </li>
+                <li class="main-li">
+                    <a href="#prüfungsrecht" class="main-link">
+                        <img src="./img/hero-3.png" alt="Hochschulrecht" class="main-link-img">
+                        Prüfungsrecht
+                        <svg class="icon"><use href="#icon-arrow"></use></svg>
+                    </a>
+                </li>
+                <li class="main-li">
+                    <a href="#schulrecht" class="main-link">
+                        <img src="./img/hero-4.png" alt="Hochschulrecht" class="main-link-img">
+                        Schulrecht
+                        <svg class="icon"><use href="#icon-arrow"></use></svg>
+                    </a>
+                </li>
+                <li class="main-li">
+                    <a href="#verwaltungsrecht" class="main-link">
+                        <img src="./img/hero-5.png" alt="Hochschulrecht" class="main-link-img">
+                        Verwaltungsrecht
+                        <svg class="icon"><use href="#icon-arrow"></use></svg>
+                    </a>
+                </li>
+
+
+            </ul>
+        </div>
+
+    </div>
+
+    <div class="about">
+        <div class="container">
+            <div class="about-hold">
+                <div class="about-text-hold">
+                    <h5 class="about-title">Kanzlei für Vervaltungss­straf­recht</h5>
+                    <div class="about-text-wrap">
+                        <p class="about-text">Persönliche Betreuung in den Bereichen Bildungsrecht und Verwaltungsrecht
+                            – mit Empathie, Einsatzbereitschaft, Erfahrung
+                        </p>
+                        <p class="about-text">Als Fachanwältin für Verwaltungsrecht berate und vertrete ich Sie an
+                            meinem Standort in München sowie bundesweit in den verschiedenen Bereichen des öffentlichen
+                            Rechts. Also immer dann, wenn es um die Durchsetzung Ihrer Rechte gegenüber Behörden,
+                            Universitäten, Schulen und öffentlichen Institutionen geht.
+                        </p>
+                        <p class="about-text">Meine Tätigkeitsschwerpunkte liegen besonders im Schulrecht,
+                            Hochschulrecht, Prüfungsrecht und Numerus-Clausus-Recht (sog. Studienplatzklagen) sowie im
+                            gesamten Berufszugangsrecht und Berufszulassungsrecht (z.B. Approbationsrecht,
+                            Promotionsrecht, Meisterprüfungsrecht). Aber auch in Bereichen wie z.B. dem Beamtenrecht,
+                            dem öffentlichen Bau- und Planungsrecht, dem Naturschutzrecht und Gewerberecht stehe ich
+                            Ihnen kompetent zur Seite.
+                            für eine Anfrage.</p>
+                    </div>
+                    <a href="#" class="btn butn btn-about-more"><span>Mehr erfahren</span></a>
+
+                </div>
+
+                <div class="cardchen">
+                    <div class="cardchen-body">
+                        <div class="cardchen-foto img-cover">
+                            <img src="./img/DSC_8990.jpg" class="cardchen-img-top" alt="Gründer">
+                        </div>
+                        <div class="cardchen-text-hold">
+                            <div class="cardchen-text-group">
+                                <h3 class="cardchen-text-title">Romina R. Riechwald - Rechtsanwältin</h3>
+                                <a href="#" class="cardchen-text-value">Franz-Joseph-Straße 9 <br> 80801 München</a>
+                            </div>
+                            <div class="cardchen-text-group">
+                                <h3 class="cardchen-text-title">Kontakt</h3>
+                                <a href="mailto:Rechtsanwalt@Riechwald.de"
+                                    class="cardchen-text-value">rechtsanwalt@riechwald.de</a>
+                                <a href="tel:+4989334422" class="cardchen-text-value">+49 89 334 422</a>
+                            </div>
+                            <div class="cardchen-text-group">
+                                <h3 class="cardchen-text-value rudolf">Rudolf P. B. Riechwald - Rechtsanwalt († 11/2024)
+                                </h3>
+                            </div>
+                        </div>
+
+                        <!-- <p>
+                            Romina R. Riechwald - Rechtsanwältin
+                             <br>
+                            T. <br>
+                        </p> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+    <div class="gebiet" id="hochschulrecht">
+        <div class="container">
+            <div class="gebiet-hold">
+                <div class="gebiet-text-hold">
+                    <h3 class="gebiet-title"> Hochschulrecht</h3>
+                    <div class="gebiet-text-wrap">
+                        <div class="gebiet-text">
+                            <p class="gebiet-text-item">Fragen und Probleme im Zusammenhang mit Studienaufnahme oder während des Studiums? </p>
+                            <p class="gebiet-text-item">Ich unterstütze Sie gerne bei den verschiedenen Themen des Hochschulrechts </p>
+                        </div>
+                        <a href="#" class="btn butn btn-gebiet-more"><span>Mehr erfahren</span></a>
+                    </div>
+                </div>
+                <div class="gebiet-img-hold img-cover">
+                    <img src="./img/Bild Bücher BVerfGE 2.jpg" class="gebiet-img" alt="Gründer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gebiet" id="studienplatzklage">
+        <div class="container">
+            <div class="gebiet-hold">
+                <div class="gebiet-text-hold">
+                    <h3 class="gebiet-title"> Studienplatzklage </h3>
+                    <div class="gebiet-text-wrap">
+                        <div class="gebiet-text">
+                            <p class="gebiet-text-item">Studienplatz nicht erhalten? Ich klage bundesweit Studienplätze gegen Universitäten, die Stiftung für Hochschulzulassung oder Fachhochschulen ein und fechte Ablehnungsbescheide bei Studienzugangsprüfungen bzw. Eignungsfeststellungsverfahren an
+                            </p>
+                           
+                        </div>
+                        <a href="#" class="btn butn btn-gebiet-more"><span>Mehr erfahren</span></a>
+                    </div>
+                </div>
+                <div class="gebiet-img-hold img-cover">
+                    <img src="./img/Bild Bücher BVerfGE 2.jpg" class="gebiet-img" alt="Gründer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gebiet" id="schulrecht">
+        <div class="container">
+            <div class="gebiet-hold">
+                <div class="gebiet-text-hold">
+                    <h3 class="gebiet-title"> Schulrecht  </h3>
+                    <div class="gebiet-text-wrap">
+                        <div class="gebiet-text">
+                            <p class="gebiet-text-item">Ich berate und vertreten Sie im Schulrecht u.a. in den Bereichen Einschulung, Gastschule, Übertritt, Probezeiten, Disziplinarmaßnahmen, Nichtversetzung und Nachteilsausgleich </p>
+                           
+                        </div>
+                        <a href="#" class="btn butn btn-gebiet-more"><span>Mehr erfahren</span></a>
+                    </div>
+                </div>
+                <div class="gebiet-img-hold img-cover">
+                    <img src="./img/Bild Bücher BVerfGE 2.jpg" class="gebiet-img" alt="Gründer">
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="gebiet" id="verwaltungsrecht">
+        <div class="container">
+            <div class="gebiet-hold">
+                <div class="gebiet-text-hold">
+                    <h3 class="gebiet-title"> Verwaltungsrecht
+                    </h3>
+                    <div class="gebiet-text-wrap">
+                        <div class="gebiet-text">
+                            <p class="gebiet-text-item">Ich berate und vertrete Sie in weiteren Fachgebieten des öffentlichen Rechts, z.B. im Beamtenrecht, Berufsrecht (Approbation), im öffentlichen Bau- und Planungsrecht, im Naturschutzrecht sowie in vielen anderen öffentlich-rechtlichen Gebieten. </p>
+                           
+                        </div>
+                        <a href="#" class="btn butn btn-gebiet-more"><span>Mehr erfahren</span></a>
+                    </div>
+                </div>
+                <div class="gebiet-img-hold img-cover">
+                    <img src="./img/Bild Bücher BVerfGE 2.jpg" class="gebiet-img" alt="Gründer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="gebiet" id="prüfungsrecht">
+        <div class="container">
+            <div class="gebiet-hold">
+                <div class="gebiet-text-hold">
+                    <h3 class="gebiet-title">Prüfungsrecht</h3>
+                    <div class="gebiet-text-wrap">
+                        <div class="gebiet-text">
+                            <p class="gebiet-text-item">Prüfung nicht bestanden? Ich berate und vertrete Sie außergerichtlich und gerichtlich in allen Rechtsfragen im Prüfungsrecht, z.B. bei Staats-, Universitäts- und Berufsprüfungen sowie Abitur- und Schulprüfungen und führe bundesweit prüfungsrechtliche Anfechtungsverfahren  </p>
+                           
+                        </div>
+                        <a href="#" class="btn butn btn-gebiet-more"><span>Mehr erfahren</span></a>
+                    </div>
+                </div>
+                <div class="gebiet-img-hold img-cover">
+                    <img src="./img/Bild Bücher BVerfGE 2.jpg" class="gebiet-img" alt="Gründer">
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <span class="btn-play-animate" data-bs-toggle="modal" data-bs-target="#order-call-modal">
+        <span class="btn-play-animate__icon-hold">
+            <span class="btn-play-animate__icon-smile"></span>
+            <span class="btn-play-animate__icon anim-shake"></span>
+        </span>
+        <span class="btn-play-animate__ring-hold">
+            <span class="btn-play-animate__ring"></span>
+        </span>
+    </span>
+
+
+
+    <!-- Modal -->
+    <div class="modal fade modal-order-call" id="order-call-modal" tabindex="-1" aria-labelledby="exampleModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Termin vereinbaren</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form id="form-order-call">
+                        <div class="mb-3">
+                            <label class="form-label">Name</label>
+                            <input type="text" name="name" class="form-control form-control-lg" id="input-name">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Telefone</label>
+                            <input type="tel" name="phone" class="form-control form-control-lg" id="input-phone">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Email </label>
+                            <input type="email" name="email" class="form-control form-control-lg" id="input-email"
+                                placeholder="name@example.com">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label">Message(optional)</label>
+                            <textarea name="message" class="form-control form-control-lg" id="input-message"
+                                rows="3"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">Termin vereinbaren</button>
+                    </form>
+
+                    <div class="success-state text-center py-4 d-none">
+                        <img src="./img/check.png" alt="" width="100" class="mb-4">
+                        <h1 class="fs-2">Danke für die Kontaktaufnahme</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div hidden="hidden" style="display: none;">
+        <svg xmlns="http://www.w3.org/2000/svg">
+            <symbol id="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                stroke-linecap="round" stroke-linejoin="round">
+                <circle cx="11" cy="11" r="8"></circle>
+                <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+            </symbol>
+
+            <symbol id="icon-arrow" viewBox="0 0 24 24" fill="none">
+                <path d="M9 18L15 12L9 6" stroke="black" stroke-opacity="0.5" stroke-width="2" stroke-linecap="round"
+                    stroke-linejoin="round" />
+            </symbol>
+
+
+
+
+        </svg>
+    </div>
+
+
+
+    <script src="./libs/boostrap/js/bootstrap.min.js"></script>
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
