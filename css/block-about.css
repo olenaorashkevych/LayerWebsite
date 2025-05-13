@@ -1,11 +1,9 @@
 .about {
     margin: 96px 0;
-    
-    background-color: #b0cce1;
+    background-color: var(--color-main);
     padding: 86px 0;
 }
-.about-hold
-{
+.about-hold {
     display: flex;
     gap: 50px;
 }
@@ -17,9 +15,11 @@
     text-transform: uppercase;
     color: black;
     padding-bottom: 20px;
+    color: #fff;
 }
 .about-text-wrap {
     margin-bottom: 34px;
+    color: #fff;
 }
 .about-text {
     line-height: 34px;
@@ -30,7 +30,7 @@
 
 .about .cardchen {
     width: 100%;
-    background-color: #f0f0f0;
+    background-color: var(--color-gray);
     flex: 1 1.8 auto;
 }
 .about .cardchen-body {
