@@ -1,6 +1,6 @@
 @import url("../libs/boostrap/css/bootstrap.min.css");
 
-
+@import url("page-article.css");
 @import url("./0--main.css");
 @import url("./1--buttons.css");
 @import url("./1--modal.css");

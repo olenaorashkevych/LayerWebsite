@@ -1,0 +1,46 @@
+
+.article-img{
+width: 100%;
+height: 50vh;
+position: relative;
+object-fit: cover;
+
+}
+.article-container {
+    padding: 20px;
+   
+}
+.kompetenz {
+}
+
+.article-logo {
+    width: 350px;
+    position: absolute;
+    top: 50px;
+    left: 0;
+}
+.article {
+    margin: 0 204px;
+}
+.article-title {
+        text-transform: uppercase;
+        font-size: 42px;
+            padding-right: 20px;
+            margin-top: 60px;
+            margin-bottom: 60px;
+
+    }
+    .article-content-bold {
+
+        font-weight: 700;
+        
+
+    }
+    .article-content {
+        gap: 20px;
+    }
+    .article-list {
+       
+    }
+    .article-list-item {
+    }
