@@ -1,15 +1,16 @@
 @import url("../libs/boostrap/css/bootstrap.min.css");
 
-@import url("page-article.css");
 @import url("./0--main.css");
 @import url("./1--buttons.css");
 @import url("./1--modal.css");
+@import url("./1--typo.css");
 
 @import url("./block--header.css");
 @import url("./block--hero.css");
-
-@import url("block-footer.css");
-
-@import url("./page--home.css");
+@import url("./block-footer.css");
 @import url("./block-about.css");
 @import url("./block-gebiete.css");
+@import url("./block--portfolio.css");
+
+@import url("./page--home.css");
+@import url("./page-article.css");
